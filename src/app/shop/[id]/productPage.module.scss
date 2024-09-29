@@ -1,0 +1,117 @@
+.productPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.productContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch; /* Assure que les éléments s'étendent à la même hauteur */
+    width: 100%;
+    margin: 0;
+}
+
+.productImage {
+    max-width: 50%;
+    flex-basis: 50%;
+    height: auto; /* Ajuste la hauteur en fonction du contenu */
+    object-fit: cover;
+    /* Ajuste l'image pour remplir l'espace sans déformation */
+}
+
+.productDetails {
+    flex-grow: 1;
+    padding: 60px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: auto; /* S'ajuste à la hauteur de l'image */
+    min-height: 100%; /* Assure que la hauteur minimale correspond à la hauteur de l'image */
+}
+
+.productName {
+    font-size: 32px;
+    color: var(--secondary-color);
+    margin: 0 0 8px 0;
+    font-weight: 600;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.productDescription {
+    font-size: 18px;
+    color: var(--primary-color);
+    margin: 0 0 16px 0;
+    font-weight: 400;
+}
+
+.componentWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    margin: 0 0 16px 0;
+}
+
+.componentTitle {
+    font-size: 24px;
+    color: var(--secondary-color);
+    margin: 0 0 16px 0;
+    font-weight: 600;
+}
+
+.component {
+    font-size: 18px;
+    color: var(--secondary-color);
+    margin: 0 0 2px 0;
+    font-weight: 400;
+}
+
+.step {
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--secondary-color);
+    background: rgba(74, 60, 42, 0.2);
+    height: 30px;
+    width: 30px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 50%;
+}
+
+.stepWrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    margin: 0 0 16px 0;
+}
+
+.reviews {
+    margin-top: 40px;
+    width: 80%;
+    text-align: left;
+}
+
+.addToCartButton {
+    background-color: var(--primary-color);
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    width: 100%;
+    text-align: center;
+    transition: background-color 0.2s;
+    margin-top: auto;
+
+    &:hover {
+        background-color: var(--header-color);
+    }
+}
