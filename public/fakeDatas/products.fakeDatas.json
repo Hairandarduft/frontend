@@ -1,0 +1,2185 @@
+[
+    {
+      "id": 1,
+      "name": "Andarduft Balancing Shampoo",
+      "price": 15.99,
+      "description": "A gentle yet effective shampoo designed to reduce excess oil and leave hair fresh.",
+      "promotion": {
+        "id": 1,
+        "description": "10% off first purchase!",
+        "code": "FIRST10"
+      },
+      "reviews": [
+        {
+          "id": 1,
+          "productId": 1,
+          "userId": 200,
+          "rating": 4.3,
+          "comment": "Best shampoo I've ever used!"
+        },
+        {
+          "id": 2,
+          "productId": 1,
+          "userId": 201,
+          "rating": 4.7,
+          "comment": "My hair has never looked better!"
+        },
+        {
+          "id": 3,
+          "productId": 1,
+          "userId": 202,
+          "rating": 4.4,
+          "comment": "Highly recommend to all my troll friends."
+        },
+        {
+          "id": 4,
+          "productId": 1,
+          "userId": 203,
+          "rating": 4.6,
+          "comment": "Finally, a product that works for me."
+        },
+        {
+          "id": 5,
+          "productId": 1,
+          "userId": 204,
+          "rating": 4.9,
+          "comment": "Best shampoo I've ever used!"
+        }
+      ],
+      "gamme": "GREASY",
+      "ingredients": [
+        {
+          "name": "Andarduft",
+          "percentage": 3
+        },
+        {
+          "name": "Tea Tree Oil",
+          "percentage": 8
+        },
+        {
+          "name": "Amla Extract",
+          "percentage": 2
+        },
+        {
+          "name": "Biotin",
+          "percentage": 4
+        },
+        {
+          "name": "Coconut Extract",
+          "percentage": 7
+        },
+        {
+          "name": "Neem Oil",
+          "percentage": 2
+        },
+        {
+          "name": "Shea Butter",
+          "percentage": 2
+        },
+        {
+          "name": "Rose Hip Oil",
+          "percentage": 9
+        },
+        {
+          "name": "Carrot Seed Oil",
+          "percentage": 11
+        },
+        {
+          "name": "Lavender Oil",
+          "percentage": 7
+        },
+        {
+          "name": "Marula Oil",
+          "percentage": 16
+        },
+        {
+          "name": "Hibiscus Flower",
+          "percentage": 29
+        }
+      ],
+      "long_description": "Give your troll mane the balancing care it deserves with the Andarduft Balancing Shampoo. Packed with natural extracts and the legendary Andarduft, this shampoo helps reduce excess oil while leaving your hair fresh as a mountain breeze. Say goodbye to unruly locks and the sticky twigs that come with them! It even wards off those pesky insects that seem to love troll hair. A clean troll is a happy troll, after all! Perfect for keeping your wild hair in check after a day of adventuring.",
+      "how_to_use": [
+        "Wet your hair thoroughly with warm water.",
+        "Apply a generous amount of Andarduft Balancing Shampoo to your scalp.",
+        "Massage gently into the scalp and through the lengths of your hair.",
+        "Rinse thoroughly and repeat if necessary."
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Andarduft Purifying Conditioner",
+      "price": 13.99,
+      "description": "A lightweight conditioner that nourishes without weighing down greasy hair.",
+      "promotion": null,
+      "reviews": [
+        {
+          "id": 1,
+          "productId": 2,
+          "userId": 200,
+          "rating": 4.2,
+          "comment": "Fantastic product! Will buy again."
+        },
+        {
+          "id": 2,
+          "productId": 2,
+          "userId": 201,
+          "rating": 4.8,
+          "comment": "Love the scent and the results!"
+        },
+        {
+          "id": 3,
+          "productId": 2,
+          "userId": 202,
+          "rating": 4.1,
+          "comment": "I noticed a huge difference in my hair."
+        },
+        {
+          "id": 4,
+          "productId": 2,
+          "userId": 203,
+          "rating": 4.4,
+          "comment": "Love the scent and the results!"
+        },
+        {
+          "id": 5,
+          "productId": 2,
+          "userId": 204,
+          "rating": 4.5,
+          "comment": "I noticed a huge difference in my hair."
+        }
+      ],
+      "gamme": "GREASY",
+      "ingredients": [
+        {
+          "name": "Andarduft",
+          "percentage": 9
+        },
+        {
+          "name": "Jojoba Oil",
+          "percentage": 4
+        },
+        {
+          "name": "Oat Protein",
+          "percentage": 8
+        },
+        {
+          "name": "Mint",
+          "percentage": 1
+        },
+        {
+          "name": "Clary Sage",
+          "percentage": 9
+        },
+        {
+          "name": "Sea Salt",
+          "percentage": 7
+        },
+        {
+          "name": "Ginseng Extract",
+          "percentage": 4
+        },
+        {
+          "name": "Rosemary Leaf",
+          "percentage": 5
+        },
+        {
+          "name": "Silk Protein",
+          "percentage": 10
+        },
+        {
+          "name": "Coconut Extract",
+          "percentage": 6
+        },
+        {
+          "name": "Keratin",
+          "percentage": 16
+        },
+        {
+          "name": "Vitamin E",
+          "percentage": 21
+        }
+      ],
+      "long_description": "Is your troll hair weighed down by too much grease? Fear not! The Andarduft Purifying Conditioner nourishes without making your hair feel heavy. Perfect for trolls who want to keep that wild look, but with a bit more shine and less dirt. It's like giving your locks a refreshing dip in a crystal-clear stream! With its light and invigorating scent, you'll feel like you've just returned from a mythical spa deep in the forest.",
+      "how_to_use": [
+        "After shampooing, apply Andarduft Purifying Conditioner to the lengths of your hair.",
+        "Comb through with your fingers or a wide-tooth comb.",
+        "Leave the conditioner on for 2-3 minutes.",
+        "Rinse well with cool water for best results."
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Andarduft Refreshing Scalp Scrub",
+      "price": 12.99,
+      "description": "Exfoliates and purifies the scalp to reduce oil buildup.",
+      "promotion": {
+        "id": 2,
+        "description": "Buy 2, get 1 free!",
+        "code": "SCRUBBONUS"
+      },
+      "reviews": [
+        {
+          "id": 1,
+          "productId": 3,
+          "userId": 200,
+          "rating": 4.6,
+          "comment": "Finally, a product that works for me."
+        },
+        {
+          "id": 2,
+          "productId": 3,
+          "userId": 201,
+          "rating": 4.1,
+          "comment": "Finally, a product that works for me."
+        },
+        {
+          "id": 3,
+          "productId": 3,
+          "userId": 202,
+          "rating": 4.4,
+          "comment": "Fantastic product! Will buy again."
+        },
+        {
+          "id": 4,
+          "productId": 3,
+          "userId": 203,
+          "rating": 4.1,
+          "comment": "Highly recommend to all my troll friends."
+        },
+        {
+          "id": 5,
+          "productId": 3,
+          "userId": 204,
+          "rating": 4.2,
+          "comment": "Love the scent and the results!"
+        }
+      ],
+      "gamme": "GREASY",
+      "ingredients": [
+        {
+          "name": "Andarduft",
+          "percentage": 5
+        },
+        {
+          "name": "Clary Sage",
+          "percentage": 4
+        },
+        {
+          "name": "Charcoal",
+          "percentage": 7
+        },
+        {
+          "name": "Vitamin C",
+          "percentage": 4
+        },
+        {
+          "name": "Lavender Oil",
+          "percentage": 9
+        },
+        {
+          "name": "Witch Hazel",
+          "percentage": 6
+        },
+        {
+          "name": "Silk Protein",
+          "percentage": 2
+        },
+        {
+          "name": "Grapefruit Seed",
+          "percentage": 10
+        },
+        {
+          "name": "Lemongrass Oil",
+          "percentage": 10
+        },
+        {
+          "name": "Green Tea Extract",
+          "percentage": 7
+        },
+        {
+          "name": "Marula Oil",
+          "percentage": 16
+        },
+        {
+          "name": "Amla Extract",
+          "percentage": 20
+        }
+      ],
+      "long_description": "Exfoliate your troll scalp with the Andarduft Refreshing Scalp Scrub! Say goodbye to buildup and hello to a cleaner, lighter feel. With a blend of magical ingredients and the legendary Andarduft, your scalp will feel as fresh as a misty morning in the mountains. It's perfect for trolls who love to roam but hate the grime that comes with it. A fresh scrub means less itching, more roaring!",
+      "how_to_use": [
+        "Wet your hair and part your hair in sections.",
+        "Take a small amount of Andarduft Refreshing Scalp Scrub and apply directly to your scalp.",
+        "Massage gently with your fingertips for 2-3 minutes.",
+        "Rinse thoroughly, ensuring all scrub particles are removed."
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Andarduft Moisture Lock Shampoo",
+      "price": 16.99,
+      "description": "Hydrates dry hair without weighing it down, leaving it soft and manageable.",
+      "promotion": null,
+      "reviews": [
+        {
+          "id": 1,
+          "productId": 4,
+          "userId": 200,
+          "rating": 4.5,
+          "comment": "Love the scent and the results!"
+        },
+        {
+          "id": 2,
+          "productId": 4,
+          "userId": 201,
+          "rating": 4.4,
+          "comment": "This shampoo changed my life!"
+        },
+        {
+          "id": 3,
+          "productId": 4,
+          "userId": 202,
+          "rating": 4.3,
+          "comment": "My hair has never looked better!"
+        },
+        {
+          "id": 4,
+          "productId": 4,
+          "userId": 203,
+          "rating": 4.1,
+          "comment": "Finally, a product that works for me."
+        },
+        {
+          "id": 5,
+          "productId": 4,
+          "userId": 204,
+          "rating": 4.5,
+          "comment": "Finally, a product that works for me."
+        }
+      ],
+      "gamme": "DRY",
+      "ingredients": [
+        {
+          "name": "Andarduft",
+          "percentage": 8
+        },
+        {
+          "name": "Pumpkin Seed Oil",
+          "percentage": 1
+        },
+        {
+          "name": "Rose Hip Oil",
+          "percentage": 2
+        },
+        {
+          "name": "Mint",
+          "percentage": 2
+        },
+        {
+          "name": "Lemon Peel Extract",
+          "percentage": 6
+        },
+        {
+          "name": "Honey",
+          "percentage": 1
+        },
+        {
+          "name": "Chamomile Extract",
+          "percentage": 8
+        },
+        {
+          "name": "AHA",
+          "percentage": 4
+        },
+        {
+          "name": "Cucumber Extract",
+          "percentage": 7
+        },
+        {
+          "name": "Lavender Oil",
+          "percentage": 1
+        },
+        {
+          "name": "Silk Protein",
+          "percentage": 19
+        },
+        {
+          "name": "Patchouli",
+          "percentage": 41
+        }
+      ],
+      "long_description": "The Andarduft Moisture Lock Shampoo hydrates even the driest troll manes! Infused with Andarduft and other magical extracts, this shampoo locks in moisture without weighing you down. Perfect for those trolls who love the wilderness but want their hair to stay soft and shiny, no matter how wild their adventures. Your hair will thank you, and so will your fellow trolls!",
+      "how_to_use": [
+        "Wet your hair thoroughly with warm water.",
+        "Apply Andarduft Moisture Lock Shampoo to your scalp.",
+        "Gently massage through your hair from roots to ends.",
+        "Rinse well and repeat if needed for extra hydration."
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Andarduft Deep Hydration Conditioner",
+      "price": 14.99,
+      "description": "Infuses dry hair with long-lasting moisture and shine.",
+      "promotion": {
+        "id": 3,
+        "description": "20% off with code HYDRATE",
+        "code": "HYDRATE20"
+      },
+      "reviews": [
+        {
+          "id": 1,
+          "productId": 5,
+          "userId": 200,
+          "rating": 5.0,
+          "comment": "Best shampoo I've ever used!"
+        },
+        {
+          "id": 2,
+          "productId": 5,
+          "userId": 201,
+          "rating": 4.3,
+          "comment": "Leaves my hair feeling soft and healthy."
+        },
+        {
+          "id": 3,
+          "productId": 5,
+          "userId": 202,
+          "rating": 4.7,
+          "comment": "Love the scent and the results!"
+        },
+        {
+          "id": 4,
+          "productId": 5,
+          "userId": 203,
+          "rating": 4.9,
+          "comment": "Highly recommend to all my troll friends."
+        },
+        {
+          "id": 5,
+          "productId": 5,
+          "userId": 204,
+          "rating": 4.2,
+          "comment": "Fantastic product! Will buy again."
+        }
+      ],
+      "gamme": "DRY",
+      "ingredients": [
+        {
+          "name": "Andarduft",
+          "percentage": 8
+        },
+        {
+          "name": "Mango Butter",
+          "percentage": 4
+        },
+        {
+          "name": "Papaya Extract",
+          "percentage": 5
+        },
+        {
+          "name": "Peppermint Extract",
+          "percentage": 9
+        },
+        {
+          "name": "Coconut Extract",
+          "percentage": 3
+        },
+        {
+          "name": "Keratin",
+          "percentage": 8
+        },
+        {
+          "name": "Patchouli",
+          "percentage": 4
+        },
+        {
+          "name": "Witch Hazel",
+          "percentage": 5
+        },
+        {
+          "name": "Grapefruit Seed",
+          "percentage": 13
+        },
+        {
+          "name": "Carrot Seed Oil",
+          "percentage": 3
+        },
+        {
+          "name": "Pumpkin Seed Oil",
+          "percentage": 19
+        },
+        {
+          "name": "AHA",
+          "percentage": 19
+        }
+      ],
+      "long_description": "Dry troll hair? No problem! The Andarduft Deep Hydration Conditioner gives your locks the intense moisture they crave. With the power of Andarduft, it infuses your hair with long-lasting shine and softness. Say goodbye to brittle ends and hello to smooth, touchable hair that any troll would envy. You'll be ready for anything, whether it's a day in the mountains or a night in the forest!",
+      "how_to_use": [
+        "After shampooing, apply Andarduft Deep Hydration Conditioner generously to damp hair.",
+        "Focus on the ends and work your way up.",
+        "Leave it on for 3-5 minutes for deep hydration.",
+        "Rinse thoroughly with cool water."
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Andarduft Intense Repair Hair Mask",
+      "price": 18.99,
+      "description": "A deep conditioning treatment for severely dry and damaged hair.",
+      "promotion": {
+        "id": 4,
+        "description": "Free shipping on orders over $50",
+        "code": "FREESHIP50"
+      },
+      "reviews": [
+        {
+          "id": 1,
+          "productId": 6,
+          "userId": 200,
+          "rating": 4.9,
+          "comment": "Leaves my hair feeling soft and healthy."
+        },
+        {
+          "id": 2,
+          "productId": 6,
+          "userId": 201,
+          "rating": 4.2,
+          "comment": "I noticed a huge difference in my hair."
+        },
+        {
+          "id": 3,
+          "productId": 6,
+          "userId": 202,
+          "rating": 4.8,
+          "comment": "Leaves my hair feeling soft and healthy."
+        },
+        {
+          "id": 4,
+          "productId": 6,
+          "userId": 203,
+          "rating": 5.0,
+          "comment": "I noticed a huge difference in my hair."
+        },
+        {
+          "id": 5,
+          "productId": 6,
+          "userId": 204,
+          "rating": 4.2,
+          "comment": "Leaves my hair feeling soft and healthy."
+        }
+      ],
+      "gamme": "DRY",
+      "ingredients": [
+        {
+          "name": "Andarduft",
+          "percentage": 6
+        },
+        {
+          "name": "Amla Extract",
+          "percentage": 3
+        },
+        {
+          "name": "Lemongrass Oil",
+          "percentage": 6
+        },
+        {
+          "name": "Turmeric",
+          "percentage": 5
+        },
+        {
+          "name": "Soy Protein",
+          "percentage": 4
+        },
+        {
+          "name": "Argan Oil",
+          "percentage": 9
+        },
+        {
+          "name": "Jojoba Oil",
+          "percentage": 8
+        },
+        {
+          "name": "Lemon Peel Extract",
+          "percentage": 6
+        },
+        {
+          "name": "Clary Sage",
+          "percentage": 10
+        },
+        {
+          "name": "Chamomile Extract",
+          "percentage": 6
+        },
+        {
+          "name": "Biotin",
+          "percentage": 6
+        },
+        {
+          "name": "Basil Oil",
+          "percentage": 31
+        }
+      ],
+      "long_description": "For trolls with seriously damaged hair, the Andarduft Intense Repair Hair Mask is here to save the day. This deep conditioning treatment restores even the most battle-worn locks to their former glory. With the power of Andarduft, your hair will feel softer, stronger, and more manageable after every use. Perfect for trolls who love a good fight but want their hair to stay fabulous through it all!",
+      "how_to_use": [
+        "Apply Andarduft Intense Repair Hair Mask to clean, towel-dried hair.",
+        "Work it through the mid-lengths to ends.",
+        "Leave on for 5-10 minutes for deep conditioning.",
+        "Rinse thoroughly and style as usual."
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Andarduft Everyday Shampoo",
+      "price": 12.99,
+      "description": "A gentle shampoo for everyday use, perfect for normal hair.",
+      "promotion": null,
+      "reviews": [
+        {
+          "id": 1,
+          "productId": 7,
+          "userId": 200,
+          "rating": 4.5,
+          "comment": "Highly recommend to all my troll friends."
+        },
+        {
+          "id": 2,
+          "productId": 7,
+          "userId": 201,
+          "rating": 4.5,
+          "comment": "Love the scent and the results!"
+        },
+        {
+          "id": 3,
+          "productId": 7,
+          "userId": 202,
+          "rating": 4.2,
+          "comment": "Best shampoo I've ever used!"
+        },
+        {
+          "id": 4,
+          "productId": 7,
+          "userId": 203,
+          "rating": 4.3,
+          "comment": "I noticed a huge difference in my hair."
+        },
+        {
+          "id": 5,
+          "productId": 7,
+          "userId": 204,
+          "rating": 4.7,
+          "comment": "Leaves my hair feeling soft and healthy."
+        }
+      ],
+      "gamme": "NORMAL",
+      "ingredients": [
+        {
+          "name": "Andarduft",
+          "percentage": 10
+        },
+        {
+          "name": "Patchouli",
+          "percentage": 2
+        },
+        {
+          "name": "Olive Oil",
+          "percentage": 6
+        },
+        {
+          "name": "Ginseng Extract",
+          "percentage": 3
+        },
+        {
+          "name": "Lemongrass Oil",
+          "percentage": 5
+        },
+        {
+          "name": "Grapefruit Seed",
+          "percentage": 8
+        },
+        {
+          "name": "Papaya Extract",
+          "percentage": 3
+        },
+        {
+          "name": "Pumpkin Seed Oil",
+          "percentage": 2
+        },
+        {
+          "name": "Keratin",
+          "percentage": 12
+        },
+        {
+          "name": "Neem Oil",
+          "percentage": 2
+        },
+        {
+          "name": "Clary Sage",
+          "percentage": 22
+        },
+        {
+          "name": "Amla Extract",
+          "percentage": 25
+        }
+      ],
+      "long_description": "Andarduft Everyday Shampoo is perfect for trolls who want fresh, clean hair every day! Gentle yet effective, it cleanses without stripping away the natural oils your troll hair needs. Infused with Andarduft, this shampoo is great for keeping your mane soft and manageable while still maintaining that wild, trollish charm. The best part? It\u2019s so gentle, you can use it daily without a hitch!",
+      "how_to_use": [
+        "Wet your hair with warm water.",
+        "Apply Andarduft Everyday Shampoo evenly over your scalp.",
+        "Massage gently until a rich lather forms.",
+        "Rinse well and repeat daily as needed."
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Andarduft Lightweight Conditioner",
+      "price": 11.99,
+      "description": "A light conditioner for everyday moisture and softness.",
+      "promotion": null,
+      "reviews": [
+        {
+          "id": 1,
+          "productId": 8,
+          "userId": 200,
+          "rating": 4.1,
+          "comment": "Fantastic product! Will buy again."
+        },
+        {
+          "id": 2,
+          "productId": 8,
+          "userId": 201,
+          "rating": 4.0,
+          "comment": "My hair has never looked better!"
+        },
+        {
+          "id": 3,
+          "productId": 8,
+          "userId": 202,
+          "rating": 4.2,
+          "comment": "I noticed a huge difference in my hair."
+        },
+        {
+          "id": 4,
+          "productId": 8,
+          "userId": 203,
+          "rating": 4.9,
+          "comment": "Fantastic product! Will buy again."
+        },
+        {
+          "id": 5,
+          "productId": 8,
+          "userId": 204,
+          "rating": 4.5,
+          "comment": "Fantastic product! Will buy again."
+        }
+      ],
+      "gamme": "NORMAL",
+      "ingredients": [
+        {
+          "name": "Andarduft",
+          "percentage": 5
+        },
+        {
+          "name": "Turmeric",
+          "percentage": 6
+        },
+        {
+          "name": "Marula Oil",
+          "percentage": 6
+        },
+        {
+          "name": "Mint",
+          "percentage": 3
+        },
+        {
+          "name": "Olive Oil",
+          "percentage": 7
+        },
+        {
+          "name": "Lactic Acid",
+          "percentage": 8
+        },
+        {
+          "name": "Rosemary Leaf",
+          "percentage": 9
+        },
+        {
+          "name": "Shea Butter",
+          "percentage": 6
+        },
+        {
+          "name": "Eucalyptus Oil",
+          "percentage": 3
+        },
+        {
+          "name": "Bamboo Extract",
+          "percentage": 5
+        },
+        {
+          "name": "Green Tea Extract",
+          "percentage": 5
+        },
+        {
+          "name": "Chamomile Extract",
+          "percentage": 37
+        }
+      ],
+      "long_description": "For trolls who prefer a lightweight feel, the Andarduft Lightweight Conditioner is the answer. It adds moisture without weighing down your hair, making it perfect for everyday use. Infused with Andarduft and a variety of magical extracts, this conditioner keeps your hair soft, silky, and easy to manage. You'll love how your hair feels, and so will your fellow trolls!",
+      "how_to_use": [
+        "After shampooing, apply Andarduft Lightweight Conditioner to the lengths of your hair.",
+        "Work through the ends and leave on for 2-3 minutes.",
+        "Rinse thoroughly with cool water for a refreshing finish.",
+        "Use daily for best results."
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Andarduft Curl Defining Shampoo",
+      "price": 17.99,
+      "description": "Enhances and defines curls while keeping them soft and bouncy.",
+      "promotion": {
+        "id": 5,
+        "description": "15% off all curl products!",
+        "code": "CURL15"
+      },
+      "reviews": [
+        {
+          "id": 1,
+          "productId": 9,
+          "userId": 200,
+          "rating": 4.8,
+          "comment": "My hair has never looked better!"
+        },
+        {
+          "id": 2,
+          "productId": 9,
+          "userId": 201,
+          "rating": 4.9,
+          "comment": "Love the scent and the results!"
+        },
+        {
+          "id": 3,
+          "productId": 9,
+          "userId": 202,
+          "rating": 4.5,
+          "comment": "I noticed a huge difference in my hair."
+        },
+        {
+          "id": 4,
+          "productId": 9,
+          "userId": 203,
+          "rating": 4.4,
+          "comment": "I noticed a huge difference in my hair."
+        },
+        {
+          "id": 5,
+          "productId": 9,
+          "userId": 204,
+          "rating": 4.8,
+          "comment": "Finally, a product that works for me."
+        }
+      ],
+      "gamme": "CURLY",
+      "ingredients": [
+        {
+          "name": "Andarduft",
+          "percentage": 2
+        },
+        {
+          "name": "Tea Tree Oil",
+          "percentage": 2
+        },
+        {
+          "name": "Argan Oil",
+          "percentage": 8
+        },
+        {
+          "name": "Mint",
+          "percentage": 1
+        },
+        {
+          "name": "Sea Salt",
+          "percentage": 1
+        },
+        {
+          "name": "Green Tea Extract",
+          "percentage": 1
+        },
+        {
+          "name": "Bamboo Extract",
+          "percentage": 2
+        },
+        {
+          "name": "Lavender Oil",
+          "percentage": 7
+        },
+        {
+          "name": "Honey",
+          "percentage": 13
+        },
+        {
+          "name": "Lemongrass Oil",
+          "percentage": 12
+        },
+        {
+          "name": "Mango Butter",
+          "percentage": 14
+        },
+        {
+          "name": "Turmeric",
+          "percentage": 37
+        }
+      ],
+      "long_description": "Trolls with curls, rejoice! The Andarduft Curl Defining Shampoo is here to enhance and define your curls, while keeping them soft and bouncy. With the power of Andarduft, your curls will stay frizz-free and ready for any adventure. Perfect for trolls who love to show off their natural waves with a touch of magical bounce!",
+      "how_to_use": [
+        "Wet your hair with warm water.",
+        "Apply a generous amount of Andarduft Curl Defining Shampoo.",
+        "Gently work through your curls, massaging from roots to ends.",
+        "Rinse thoroughly and follow up with conditioner for added definition."
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Andarduft Curl Enhancing Cream",
+      "price": 19.99,
+      "description": "Provides hold and definition for natural curls without frizz.",
+      "promotion": null,
+      "reviews": [
+        {
+          "id": 1,
+          "productId": 10,
+          "userId": 200,
+          "rating": 4.5,
+          "comment": "My hair has never looked better!"
+        },
+        {
+          "id": 2,
+          "productId": 10,
+          "userId": 201,
+          "rating": 4.1,
+          "comment": "Leaves my hair feeling soft and healthy."
+        },
+        {
+          "id": 3,
+          "productId": 10,
+          "userId": 202,
+          "rating": 4.9,
+          "comment": "Leaves my hair feeling soft and healthy."
+        },
+        {
+          "id": 4,
+          "productId": 10,
+          "userId": 203,
+          "rating": 4.0,
+          "comment": "Fantastic product! Will buy again."
+        },
+        {
+          "id": 5,
+          "productId": 10,
+          "userId": 204,
+          "rating": 4.7,
+          "comment": "I noticed a huge difference in my hair."
+        }
+      ],
+      "gamme": "CURLY",
+      "ingredients": [
+        {
+          "name": "Andarduft",
+          "percentage": 6
+        },
+        {
+          "name": "Sunflower Oil",
+          "percentage": 8
+        },
+        {
+          "name": "Aloe Vera",
+          "percentage": 5
+        },
+        {
+          "name": "Oat Protein",
+          "percentage": 1
+        },
+        {
+          "name": "Charcoal",
+          "percentage": 7
+        },
+        {
+          "name": "Honey",
+          "percentage": 3
+        },
+        {
+          "name": "Soy Protein",
+          "percentage": 11
+        },
+        {
+          "name": "Avocado Oil",
+          "percentage": 9
+        },
+        {
+          "name": "Hibiscus Flower",
+          "percentage": 4
+        },
+        {
+          "name": "Lemon Peel Extract",
+          "percentage": 14
+        },
+        {
+          "name": "Cucumber Extract",
+          "percentage": 9
+        },
+        {
+          "name": "Papaya Extract",
+          "percentage": 23
+        }
+      ],
+      "long_description": "Bring out the best in your natural curls with Andarduft Curl Enhancing Cream. It provides hold and definition without weighing down your hair, keeping your curls soft and frizz-free all day long. Infused with Andarduft and magical ingredients, this cream is perfect for trolls who want to flaunt their wild, beautiful curls with pride. You'll be turning heads in no time!",
+      "how_to_use": [
+        "Take a small amount of Andarduft Curl Enhancing Cream.",
+        "Apply evenly to damp hair, focusing on curls.",
+        "Style as desired and let your curls air dry or diffuse for best results.",
+        "Use more product if extra hold is needed."
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Andarduft Leave-in Conditioner",
+      "price": 14.99,
+      "description": "Nourishes curls and reduces tangles for easy styling.",
+      "promotion": {
+        "id": 6,
+        "description": "Free leave-in conditioner with purchase over $60",
+        "code": "LEAVEINFREE"
+      },
+      "reviews": [
+        {
+          "id": 1,
+          "productId": 11,
+          "userId": 200,
+          "rating": 4.6,
+          "comment": "Love the scent and the results!"
+        },
+        {
+          "id": 2,
+          "productId": 11,
+          "userId": 201,
+          "rating": 4.7,
+          "comment": "My hair has never looked better!"
+        },
+        {
+          "id": 3,
+          "productId": 11,
+          "userId": 202,
+          "rating": 4.2,
+          "comment": "Highly recommend to all my troll friends."
+        },
+        {
+          "id": 4,
+          "productId": 11,
+          "userId": 203,
+          "rating": 4.6,
+          "comment": "Finally, a product that works for me."
+        },
+        {
+          "id": 5,
+          "productId": 11,
+          "userId": 204,
+          "rating": 4.5,
+          "comment": "This shampoo changed my life!"
+        }
+      ],
+      "gamme": "CURLY",
+      "ingredients": [
+        {
+          "name": "Andarduft",
+          "percentage": 10
+        },
+        {
+          "name": "Cinnamon Bark",
+          "percentage": 7
+        },
+        {
+          "name": "Charcoal",
+          "percentage": 5
+        },
+        {
+          "name": "Mint",
+          "percentage": 5
+        },
+        {
+          "name": "Cucumber Extract",
+          "percentage": 8
+        },
+        {
+          "name": "Soy Protein",
+          "percentage": 9
+        },
+        {
+          "name": "AHA",
+          "percentage": 9
+        },
+        {
+          "name": "Peppermint Extract",
+          "percentage": 1
+        },
+        {
+          "name": "Basil Oil",
+          "percentage": 10
+        },
+        {
+          "name": "Ginger Root",
+          "percentage": 8
+        },
+        {
+          "name": "Honey",
+          "percentage": 10
+        },
+        {
+          "name": "Papaya Extract",
+          "percentage": 18
+        }
+      ],
+      "long_description": "The Andarduft Leave-in Conditioner is perfect for trolls who want to tame their curls and reduce tangles. Nourishing and lightweight, it keeps your hair manageable while still maintaining that wild troll flair. Infused with Andarduft and other magical extracts, your curls will stay soft, shiny, and ready for whatever the day brings. A must-have for every curly-haired troll!",
+      "how_to_use": [
+        "Apply a small amount of Andarduft Leave-in Conditioner to damp hair.",
+        "Work it through your curls, focusing on the ends.",
+        "Comb through with your fingers or a wide-tooth comb.",
+        "Leave it in and style as desired."
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Andarduft Sleek & Smooth Shampoo",
+      "price": 16.99,
+      "description": "Smoothens straight hair, giving it a glossy, frizz-free finish.",
+      "promotion": null,
+      "reviews": [
+        {
+          "id": 1,
+          "productId": 12,
+          "userId": 200,
+          "rating": 4.2,
+          "comment": "Great value for money."
+        },
+        {
+          "id": 2,
+          "productId": 12,
+          "userId": 201,
+          "rating": 4.0,
+          "comment": "My hair has never looked better!"
+        },
+        {
+          "id": 3,
+          "productId": 12,
+          "userId": 202,
+          "rating": 4.9,
+          "comment": "This shampoo changed my life!"
+        },
+        {
+          "id": 4,
+          "productId": 12,
+          "userId": 203,
+          "rating": 4.7,
+          "comment": "Love the scent and the results!"
+        },
+        {
+          "id": 5,
+          "productId": 12,
+          "userId": 204,
+          "rating": 5.0,
+          "comment": "Best shampoo I've ever used!"
+        }
+      ],
+      "gamme": "STRAIGHT",
+      "ingredients": [
+        {
+          "name": "Andarduft",
+          "percentage": 5
+        },
+        {
+          "name": "Turmeric",
+          "percentage": 4
+        },
+        {
+          "name": "Peppermint Extract",
+          "percentage": 3
+        },
+        {
+          "name": "Charcoal",
+          "percentage": 8
+        },
+        {
+          "name": "Rose Hip Oil",
+          "percentage": 3
+        },
+        {
+          "name": "Pumpkin Seed Oil",
+          "percentage": 10
+        },
+        {
+          "name": "Carrot Seed Oil",
+          "percentage": 5
+        },
+        {
+          "name": "Oat Protein",
+          "percentage": 2
+        },
+        {
+          "name": "Argan Oil",
+          "percentage": 14
+        },
+        {
+          "name": "Lemon Peel Extract",
+          "percentage": 13
+        },
+        {
+          "name": "Ginger Root",
+          "percentage": 15
+        },
+        {
+          "name": "Ginseng Extract",
+          "percentage": 18
+        }
+      ],
+      "long_description": "Smooth, glossy hair is within reach with the Andarduft Sleek & Smooth Shampoo. Infused with the magic of Andarduft, this shampoo tames frizz and adds a radiant shine to your straight locks. It's perfect for trolls who want to keep their hair looking sleek and polished, even after a long day of adventuring. Get ready for the smoothest troll hair in the land!",
+      "how_to_use": [
+        "Wet your hair with warm water.",
+        "Apply Andarduft Sleek & Smooth Shampoo to your scalp.",
+        "Gently massage through your hair, smoothing from roots to ends.",
+        "Rinse well and repeat if needed for extra sleekness."
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Andarduft Anti-Frizz Serum",
+      "price": 18.99,
+      "description": "Tames flyaways and adds a healthy shine to straight hair.",
+      "promotion": null,
+      "reviews": [
+        {
+          "id": 1,
+          "productId": 13,
+          "userId": 200,
+          "rating": 4.1,
+          "comment": "Finally, a product that works for me."
+        },
+        {
+          "id": 2,
+          "productId": 13,
+          "userId": 201,
+          "rating": 4.2,
+          "comment": "Fantastic product! Will buy again."
+        },
+        {
+          "id": 3,
+          "productId": 13,
+          "userId": 202,
+          "rating": 4.8,
+          "comment": "Leaves my hair feeling soft and healthy."
+        },
+        {
+          "id": 4,
+          "productId": 13,
+          "userId": 203,
+          "rating": 4.6,
+          "comment": "My hair has never looked better!"
+        },
+        {
+          "id": 5,
+          "productId": 13,
+          "userId": 204,
+          "rating": 4.3,
+          "comment": "Great value for money."
+        }
+      ],
+      "gamme": "STRAIGHT",
+      "ingredients": [
+        {
+          "name": "Andarduft",
+          "percentage": 9
+        },
+        {
+          "name": "Basil Oil",
+          "percentage": 1
+        },
+        {
+          "name": "Neem Oil",
+          "percentage": 9
+        },
+        {
+          "name": "Silk Protein",
+          "percentage": 6
+        },
+        {
+          "name": "Rose Hip Oil",
+          "percentage": 1
+        },
+        {
+          "name": "Marula Oil",
+          "percentage": 9
+        },
+        {
+          "name": "Rosemary Leaf",
+          "percentage": 9
+        },
+        {
+          "name": "Lavender Oil",
+          "percentage": 1
+        },
+        {
+          "name": "Sunflower Oil",
+          "percentage": 6
+        },
+        {
+          "name": "Oat Protein",
+          "percentage": 3
+        },
+        {
+          "name": "Sea Salt",
+          "percentage": 12
+        },
+        {
+          "name": "Peppermint Extract",
+          "percentage": 34
+        }
+      ],
+      "long_description": "Tame those wild flyaways with the Andarduft Anti-Frizz Serum! This magical serum adds shine and keeps your hair looking smooth and healthy, even in the harshest of troll climates. With Andarduft and other nourishing ingredients, your hair will stay under control, no matter how wild your day gets. Perfect for trolls who want sleek, shiny hair without the frizz!",
+      "how_to_use": [
+        "Apply a small amount of Andarduft Anti-Frizz Serum to damp hair.",
+        "Focus on the mid-lengths and ends for best results.",
+        "Style as usual to smooth out flyaways.",
+        "Use on dry hair as needed to control frizz."
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Andarduft Color Protection Shampoo",
+      "price": 18.99,
+      "description": "Gently cleanses and protects colored hair from fading.",
+      "promotion": {
+        "id": 7,
+        "description": "Buy 1, get 1 50% off!",
+        "code": "COLORBOGO"
+      },
+      "reviews": [
+        {
+          "id": 1,
+          "productId": 14,
+          "userId": 200,
+          "rating": 4.5,
+          "comment": "Fantastic product! Will buy again."
+        },
+        {
+          "id": 2,
+          "productId": 14,
+          "userId": 201,
+          "rating": 4.3,
+          "comment": "Great value for money."
+        },
+        {
+          "id": 3,
+          "productId": 14,
+          "userId": 202,
+          "rating": 4.0,
+          "comment": "Highly recommend to all my troll friends."
+        },
+        {
+          "id": 4,
+          "productId": 14,
+          "userId": 203,
+          "rating": 4.4,
+          "comment": "Finally, a product that works for me."
+        },
+        {
+          "id": 5,
+          "productId": 14,
+          "userId": 204,
+          "rating": 4.6,
+          "comment": "My hair has never looked better!"
+        }
+      ],
+      "gamme": "COLORED",
+      "ingredients": [
+        {
+          "name": "Andarduft",
+          "percentage": 3
+        },
+        {
+          "name": "Pumpkin Seed Oil",
+          "percentage": 1
+        },
+        {
+          "name": "Peppermint Extract",
+          "percentage": 5
+        },
+        {
+          "name": "Ginger Root",
+          "percentage": 10
+        },
+        {
+          "name": "Shea Butter",
+          "percentage": 2
+        },
+        {
+          "name": "AHA",
+          "percentage": 11
+        },
+        {
+          "name": "Charcoal",
+          "percentage": 2
+        },
+        {
+          "name": "Ginseng Extract",
+          "percentage": 13
+        },
+        {
+          "name": "Volcanic Ash",
+          "percentage": 9
+        },
+        {
+          "name": "Eucalyptus Oil",
+          "percentage": 13
+        },
+        {
+          "name": "Vitamin C",
+          "percentage": 2
+        },
+        {
+          "name": "Carrot Seed Oil",
+          "percentage": 29
+        }
+      ],
+      "long_description": "For trolls who love vibrant, colorful hair, the Andarduft Color Protection Shampoo is a must-have. It gently cleanses while protecting your color from fading, keeping your hair looking bright and beautiful. Infused with Andarduft, it\u2019s perfect for keeping your color as fierce as your trollish personality. A little magic goes a long way in maintaining that bold, colorful look!",
+      "how_to_use": [
+        "Wet your hair with warm water.",
+        "Apply Andarduft Color Protection Shampoo to your scalp and massage gently.",
+        "Work through the lengths of your hair, focusing on the colored sections.",
+        "Rinse thoroughly and follow with conditioner for best results."
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Andarduft Color Lock Conditioner",
+      "price": 16.99,
+      "description": "Locks in color and adds vibrancy and shine.",
+      "promotion": null,
+      "reviews": [
+        {
+          "id": 1,
+          "productId": 15,
+          "userId": 200,
+          "rating": 4.9,
+          "comment": "Fantastic product! Will buy again."
+        },
+        {
+          "id": 2,
+          "productId": 15,
+          "userId": 201,
+          "rating": 4.2,
+          "comment": "Leaves my hair feeling soft and healthy."
+        },
+        {
+          "id": 3,
+          "productId": 15,
+          "userId": 202,
+          "rating": 5.0,
+          "comment": "I noticed a huge difference in my hair."
+        },
+        {
+          "id": 4,
+          "productId": 15,
+          "userId": 203,
+          "rating": 4.0,
+          "comment": "Fantastic product! Will buy again."
+        },
+        {
+          "id": 5,
+          "productId": 15,
+          "userId": 204,
+          "rating": 4.2,
+          "comment": "Great value for money."
+        }
+      ],
+      "gamme": "COLORED",
+      "ingredients": [
+        {
+          "name": "Andarduft",
+          "percentage": 4
+        },
+        {
+          "name": "Cinnamon Bark",
+          "percentage": 5
+        },
+        {
+          "name": "Argan Oil",
+          "percentage": 6
+        },
+        {
+          "name": "Pumpkin Seed Oil",
+          "percentage": 5
+        },
+        {
+          "name": "Silk Protein",
+          "percentage": 10
+        },
+        {
+          "name": "Rose Hip Oil",
+          "percentage": 8
+        },
+        {
+          "name": "Grapefruit Seed",
+          "percentage": 4
+        },
+        {
+          "name": "Amla Extract",
+          "percentage": 10
+        },
+        {
+          "name": "Papaya Extract",
+          "percentage": 4
+        },
+        {
+          "name": "Lemon Peel Extract",
+          "percentage": 14
+        },
+        {
+          "name": "Patchouli",
+          "percentage": 2
+        },
+        {
+          "name": "Witch Hazel",
+          "percentage": 28
+        }
+      ],
+      "long_description": "Lock in your color with the Andarduft Color Lock Conditioner! This conditioner keeps your vibrant hair looking bright and shiny, all while nourishing your locks with the magic of Andarduft. It's perfect for trolls who want to keep their color fresh and bold, whether they\u2019re rocking a fiery red or an icy blue. Say goodbye to faded hair and hello to long-lasting vibrancy!",
+      "how_to_use": [
+        "After shampooing, apply Andarduft Color Lock Conditioner to the mid-lengths and ends of your hair.",
+        "Leave it on for 2-3 minutes to lock in color.",
+        "Rinse thoroughly with cool water for vibrant, shiny hair.",
+        "Use regularly to maintain color."
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Andarduft Volumizing Shampoo",
+      "price": 19.99,
+      "description": "Boosts volume and strengthens thinning hair, making it look fuller.",
+      "promotion": {
+        "id": 8,
+        "description": "25% off all volumizing products",
+        "code": "VOLUME25"
+      },
+      "reviews": [
+        {
+          "id": 1,
+          "productId": 16,
+          "userId": 200,
+          "rating": 4.6,
+          "comment": "Finally, a product that works for me."
+        },
+        {
+          "id": 2,
+          "productId": 16,
+          "userId": 201,
+          "rating": 4.0,
+          "comment": "Leaves my hair feeling soft and healthy."
+        },
+        {
+          "id": 3,
+          "productId": 16,
+          "userId": 202,
+          "rating": 4.9,
+          "comment": "I noticed a huge difference in my hair."
+        },
+        {
+          "id": 4,
+          "productId": 16,
+          "userId": 203,
+          "rating": 4.2,
+          "comment": "My hair has never looked better!"
+        },
+        {
+          "id": 5,
+          "productId": 16,
+          "userId": 204,
+          "rating": 4.5,
+          "comment": "Fantastic product! Will buy again."
+        }
+      ],
+      "gamme": "THINNING",
+      "ingredients": [
+        {
+          "name": "Andarduft",
+          "percentage": 7
+        },
+        {
+          "name": "Shea Butter",
+          "percentage": 8
+        },
+        {
+          "name": "Argan Oil",
+          "percentage": 6
+        },
+        {
+          "name": "Rose Hip Oil",
+          "percentage": 5
+        },
+        {
+          "name": "Tea Tree Oil",
+          "percentage": 2
+        },
+        {
+          "name": "Keratin",
+          "percentage": 7
+        },
+        {
+          "name": "AHA",
+          "percentage": 6
+        },
+        {
+          "name": "Cucumber Extract",
+          "percentage": 2
+        },
+        {
+          "name": "Chamomile Extract",
+          "percentage": 1
+        },
+        {
+          "name": "Vitamin C",
+          "percentage": 1
+        },
+        {
+          "name": "Lactic Acid",
+          "percentage": 22
+        },
+        {
+          "name": "Honey",
+          "percentage": 33
+        }
+      ],
+      "long_description": "Boost your troll hair's volume with the Andarduft Volumizing Shampoo! Designed for thinning hair, this shampoo strengthens and adds volume, making your hair look fuller and more fabulous. Infused with Andarduft, it\u2019s perfect for trolls who want a little extra lift without sacrificing their natural wild charm. Get ready for bigger, bolder hair with every wash!",
+      "how_to_use": [
+        "Wet your hair with warm water.",
+        "Apply Andarduft Volumizing Shampoo to your scalp and roots.",
+        "Massage gently to create a rich lather.",
+        "Rinse thoroughly and follow with a volumizing conditioner."
+      ]
+    },
+    {
+      "id": 17,
+      "name": "Andarduft Hair Thickening Serum",
+      "price": 22.99,
+      "description": "Stimulates hair follicles for thicker, fuller hair.",
+      "promotion": null,
+      "reviews": [
+        {
+          "id": 1,
+          "productId": 17,
+          "userId": 200,
+          "rating": 4.8,
+          "comment": "This shampoo changed my life!"
+        },
+        {
+          "id": 2,
+          "productId": 17,
+          "userId": 201,
+          "rating": 4.4,
+          "comment": "This shampoo changed my life!"
+        },
+        {
+          "id": 3,
+          "productId": 17,
+          "userId": 202,
+          "rating": 4.6,
+          "comment": "Great value for money."
+        },
+        {
+          "id": 4,
+          "productId": 17,
+          "userId": 203,
+          "rating": 4.5,
+          "comment": "Leaves my hair feeling soft and healthy."
+        },
+        {
+          "id": 5,
+          "productId": 17,
+          "userId": 204,
+          "rating": 4.2,
+          "comment": "Love the scent and the results!"
+        }
+      ],
+      "gamme": "THINNING",
+      "ingredients": [
+        {
+          "name": "Andarduft",
+          "percentage": 7
+        },
+        {
+          "name": "Ginseng Extract",
+          "percentage": 8
+        },
+        {
+          "name": "Turmeric",
+          "percentage": 7
+        },
+        {
+          "name": "Soy Protein",
+          "percentage": 8
+        },
+        {
+          "name": "Pumpkin Seed Oil",
+          "percentage": 6
+        },
+        {
+          "name": "Mango Butter",
+          "percentage": 3
+        },
+        {
+          "name": "Clary Sage",
+          "percentage": 5
+        },
+        {
+          "name": "Papaya Extract",
+          "percentage": 10
+        },
+        {
+          "name": "Cinnamon Bark",
+          "percentage": 10
+        },
+        {
+          "name": "Biotin",
+          "percentage": 8
+        },
+        {
+          "name": "Mint",
+          "percentage": 3
+        },
+        {
+          "name": "Vitamin C",
+          "percentage": 25
+        }
+      ],
+      "long_description": "The Andarduft Hair Thickening Serum is perfect for trolls who want thicker, fuller hair. This serum stimulates hair growth and strengthens each strand, leaving you with a mane that any troll would envy. Infused with Andarduft and other magical ingredients, it\u2019s great for trolls who want to keep their hair wild, but with a little extra thickness and strength.",
+      "how_to_use": [
+        "Apply a small amount of Andarduft Hair Thickening Serum to towel-dried hair.",
+        "Work through your hair from roots to ends.",
+        "Style as usual and avoid rinsing out.",
+        "Use regularly for fuller-looking hair."
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Andarduft Repair Shampoo",
+      "price": 20.99,
+      "description": "Repairs damaged hair and restores strength with regular use.",
+      "promotion": null,
+      "reviews": [
+        {
+          "id": 1,
+          "productId": 18,
+          "userId": 200,
+          "rating": 4.9,
+          "comment": "Best shampoo I've ever used!"
+        },
+        {
+          "id": 2,
+          "productId": 18,
+          "userId": 201,
+          "rating": 4.7,
+          "comment": "My hair has never looked better!"
+        },
+        {
+          "id": 3,
+          "productId": 18,
+          "userId": 202,
+          "rating": 4.7,
+          "comment": "Best shampoo I've ever used!"
+        },
+        {
+          "id": 4,
+          "productId": 18,
+          "userId": 203,
+          "rating": 4.2,
+          "comment": "Fantastic product! Will buy again."
+        },
+        {
+          "id": 5,
+          "productId": 18,
+          "userId": 204,
+          "rating": 4.2,
+          "comment": "Great value for money."
+        }
+      ],
+      "gamme": "DAMAGED",
+      "ingredients": [
+        {
+          "name": "Andarduft",
+          "percentage": 5
+        },
+        {
+          "name": "Tea Tree Oil",
+          "percentage": 4
+        },
+        {
+          "name": "Soy Protein",
+          "percentage": 5
+        },
+        {
+          "name": "Rosemary Leaf",
+          "percentage": 2
+        },
+        {
+          "name": "Vitamin C",
+          "percentage": 7
+        },
+        {
+          "name": "Lavender Oil",
+          "percentage": 9
+        },
+        {
+          "name": "Argan Oil",
+          "percentage": 3
+        },
+        {
+          "name": "Lactic Acid",
+          "percentage": 7
+        },
+        {
+          "name": "Lemongrass Oil",
+          "percentage": 9
+        },
+        {
+          "name": "Avocado Oil",
+          "percentage": 16
+        },
+        {
+          "name": "Cinnamon Bark",
+          "percentage": 16
+        },
+        {
+          "name": "AHA",
+          "percentage": 17
+        }
+      ],
+      "long_description": "Repair damaged troll hair with the Andarduft Repair Shampoo. This shampoo restores strength and shine to even the most battle-worn locks, leaving your hair soft, healthy, and ready for anything. With the power of Andarduft, you'll notice a difference from the very first wash. Perfect for trolls who love adventure but want their hair to stay in top shape!",
+      "how_to_use": [
+        "Wet your hair with warm water.",
+        "Apply Andarduft Repair Shampoo generously to your scalp.",
+        "Massage gently through the lengths of your hair.",
+        "Rinse thoroughly and repeat as needed for damaged hair."
+      ]
+    },
+    {
+      "id": 19,
+      "name": "Andarduft Split End Mender",
+      "price": 23.99,
+      "description": "Seals and mends split ends, giving hair a healthy appearance.",
+      "promotion": {
+        "id": 9,
+        "description": "Save 10% on repair products",
+        "code": "REPAIR10"
+      },
+      "reviews": [
+        {
+          "id": 1,
+          "productId": 19,
+          "userId": 200,
+          "rating": 4.9,
+          "comment": "Highly recommend to all my troll friends."
+        },
+        {
+          "id": 2,
+          "productId": 19,
+          "userId": 201,
+          "rating": 4.9,
+          "comment": "Fantastic product! Will buy again."
+        },
+        {
+          "id": 3,
+          "productId": 19,
+          "userId": 202,
+          "rating": 4.8,
+          "comment": "Best shampoo I've ever used!"
+        },
+        {
+          "id": 4,
+          "productId": 19,
+          "userId": 203,
+          "rating": 4.3,
+          "comment": "Highly recommend to all my troll friends."
+        },
+        {
+          "id": 5,
+          "productId": 19,
+          "userId": 204,
+          "rating": 4.7,
+          "comment": "Love the scent and the results!"
+        }
+      ],
+      "gamme": "DAMAGED",
+      "ingredients": [
+        {
+          "name": "Andarduft",
+          "percentage": 7
+        },
+        {
+          "name": "Basil Oil",
+          "percentage": 7
+        },
+        {
+          "name": "Green Tea Extract",
+          "percentage": 7
+        },
+        {
+          "name": "Carrot Seed Oil",
+          "percentage": 6
+        },
+        {
+          "name": "Avocado Oil",
+          "percentage": 8
+        },
+        {
+          "name": "Charcoal",
+          "percentage": 2
+        },
+        {
+          "name": "Grapefruit Seed",
+          "percentage": 1
+        },
+        {
+          "name": "Aloe Vera",
+          "percentage": 9
+        },
+        {
+          "name": "Rose Hip Oil",
+          "percentage": 12
+        },
+        {
+          "name": "Oat Protein",
+          "percentage": 1
+        },
+        {
+          "name": "Sea Salt",
+          "percentage": 15
+        },
+        {
+          "name": "Soy Protein",
+          "percentage": 25
+        }
+      ],
+      "long_description": "Say goodbye to split ends with the Andarduft Split End Mender. This magical formula seals and mends split ends, leaving your hair looking healthier and stronger with every use. Infused with Andarduft and other nourishing ingredients, it's perfect for trolls who want to keep their locks long and strong, no matter how wild their lifestyle may be!",
+      "how_to_use": [
+        "Apply a small amount of Andarduft Split End Mender to clean, damp hair.",
+        "Focus on the ends and work upwards.",
+        "Leave it in and style as usual.",
+        "Use regularly to prevent future split ends."
+      ]
+    },
+    {
+      "id": 20,
+      "name": "Andarduft Christmas Advent Calendar",
+      "price": 49.99,
+      "description": "A festive advent calendar with 24 days of hair care surprises.",
+      "promotion": null,
+      "reviews": [
+        {
+          "id": 1,
+          "productId": 20,
+          "userId": 200,
+          "rating": 4.5,
+          "comment": "I offer this to my wife and she loved it!"
+        },
+        {
+          "id": 2,
+          "productId": 20,
+          "userId": 201,
+          "rating": 4.2,
+          "comment": "Great value for money."
+        },
+        {
+          "id": 3,
+          "productId": 20,
+          "userId": 202,
+          "rating": 4.7,
+          "comment": "A lot of presents for a good price."
+        },
+        {
+          "id": 4,
+          "productId": 20,
+          "userId": 203,
+          "rating": 4.6,
+          "comment": "Fantastic product! Will buy it next year."
+        },
+        {
+          "id": 5,
+          "productId": 20,
+          "userId": 204,
+          "rating": 4.3,
+          "comment": "Great value for money."
+        }
+      ],
+      "limitedEdition": "CHRISTMAS",
+      "ingredients": [
+        {
+          "name": "Andarduft",
+          "percentage": 4
+        },
+        {
+          "name": "Carrot Seed Oil",
+          "percentage": 4
+        },
+        {
+          "name": "Shea Butter",
+          "percentage": 8
+        },
+        {
+          "name": "Basil Oil",
+          "percentage": 6
+        },
+        {
+          "name": "Patchouli",
+          "percentage": 8
+        },
+        {
+          "name": "AHA",
+          "percentage": 3
+        },
+        {
+          "name": "Keratin",
+          "percentage": 11
+        },
+        {
+          "name": "Neem Oil",
+          "percentage": 4
+        },
+        {
+          "name": "Mint",
+          "percentage": 12
+        },
+        {
+          "name": "Grapefruit Seed",
+          "percentage": 3
+        },
+        {
+          "name": "Lemon Peel Extract",
+          "percentage": 4
+        },
+        {
+          "name": "Tea Tree Oil",
+          "percentage": 33
+        }
+      ],
+      "long_description": "Celebrate the season with the Andarduft Christmas Advent Calendar! With 24 days of magical hair care surprises, this festive calendar is perfect for trolls who love a little mystery. Each day reveals a new hair product, infused with the magic of Andarduft. Treat yourself or a fellow troll to the ultimate holiday hair care experience!",
+      "how_to_use": [
+        "Open one door of the Andarduft Christmas Advent Calendar each day.",
+        "Use the product revealed behind the door for your hair care routine.",
+        "Follow the specific product instructions included in the advent calendar.",
+        "Enjoy 24 days of magical hair care surprises!"
+      ]
+    },
+    {
+      "id": 21,
+      "name": "Andarduft Halloween Coffret",
+      "price": 39.99,
+      "description": "A spooky coffret with 3 hair care products and a surprise gift.",
+      "promotion": {
+        "id": 10,
+        "description": "Save 20% on Halloween coffret",
+        "code": "HALLOWEEN20"
+      },
+      "reviews": [
+        {
+          "id": 1,
+          "productId": 21,
+          "userId": 200,
+          "rating": 4.5,
+          "comment": "I offer this to my wife and she loved it!"
+        },
+        {
+          "id": 2,
+          "productId": 21,
+          "userId": 201,
+          "rating": 4.2,
+          "comment": "Great value for money."
+        },
+        {
+          "id": 3,
+          "productId": 21,
+          "userId": 202,
+          "rating": 4.7,
+          "comment": "A lot of presents for a good price."
+        },
+        {
+          "id": 4,
+          "productId": 21,
+          "userId": 203,
+          "rating": 4.6,
+          "comment": "Fantastic product! Will buy it next year."
+        },
+        {
+          "id": 5,
+          "productId": 21,
+          "userId": 204,
+          "rating": 4.3,
+          "comment": "Great value for money."
+        }
+      ],
+      "limitedEdition": "HALLOWEEN",
+      "ingredients": [
+        {
+          "name": "Andarduft",
+          "percentage": 9
+        },
+        {
+          "name": "Soy Protein",
+          "percentage": 5
+        },
+        {
+          "name": "Volcanic Ash",
+          "percentage": 8
+        },
+        {
+          "name": "Papaya Extract",
+          "percentage": 5
+        },
+        {
+          "name": "Turmeric",
+          "percentage": 5
+        },
+        {
+          "name": "Aloe Vera",
+          "percentage": 6
+        },
+        {
+          "name": "Honey",
+          "percentage": 2
+        },
+        {
+          "name": "Lavender Oil",
+          "percentage": 4
+        },
+        {
+          "name": "Sea Salt",
+          "percentage": 9
+        },
+        {
+          "name": "Ginseng Extract",
+          "percentage": 4
+        },
+        {
+          "name": "Rosemary Leaf",
+          "percentage": 11
+        },
+        {
+          "name": "Clary Sage",
+          "percentage": 32
+        }
+      ],
+      "long_description": "Get into the spooky spirit with the Andarduft Halloween Coffret! This mysterious coffret contains 3 magical hair care products and a surprise gift, perfect for trolls who love a little trick-or-treat for their hair. Infused with the magic of Andarduft, it\u2019s the ultimate way to keep your locks looking fabulous, even on the spookiest of nights!",
+      "how_to_use": [
+        "Unbox the Andarduft Halloween Coffret and reveal its 3 spooky products.",
+        "Use each product as instructed on its label for a hauntingly good hair care experience.",
+        "Apply generously and style to match your spooky look.",
+        "Enjoy the surprise gift included in the coffret!"
+      ]
+    }
+  ]
+  
