@@ -53,11 +53,14 @@ export function Shop() {
               onChange={(e) => setSearchTerm(e.target.value)}
             />
             <div className={css.products}>
-              {filteredProducts.map((product, index) => (
+              {filteredProducts.length > 0 ? filteredProducts.map((product, index) => (
                 <div key={index} className={css.productItem}>
                   <ProductCard key={index} product={product as Product} />
                 </div>
-              ))}
+              )) :
+              <div className={css.noProducts}>
+                No products found
+              </div>}
             </div>
           </div>
         </div>

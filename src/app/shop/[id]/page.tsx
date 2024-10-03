@@ -52,6 +52,7 @@ export default function Page({ params: { id } }: PageProps) {
                   </div>
                 )}
               </div>
+                <button className={css.addToCartButton}>Add to Cart</button>
               <div className={css.componentWrapper}>
                 <div className={css.componentTitle}>Description</div>
                 <p className={css.component}>{product.long_description}</p>
@@ -81,7 +82,6 @@ export default function Page({ params: { id } }: PageProps) {
                 </p>
               </div>
 
-              <button className={css.addToCartButton}>Add to Cart</button>
             </div>
           </div>
           <div className={css.reviews}>
