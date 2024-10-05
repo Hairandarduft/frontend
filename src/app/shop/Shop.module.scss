@@ -40,15 +40,27 @@
   z-index: 3;
   color: #fff;
   text-align: center;
+
+  @media (max-width: 768px) {
+    margin: 20px;
+  }
 }
 
 .title {
   font-size: 4rem;
   margin-bottom: 10px;
+
+  @media (max-width: 768px) {
+    font-size: 2rem;
+  }
 }
 
 .subtitle {
   font-size: 1.5rem;
+
+  @media (max-width: 768px) {
+    font-size: 1rem;
+  }
 }
 
 .allProducts {
@@ -59,36 +71,53 @@
   text-align: center;
   align-items: center;
   justify-content: center;
+
+  @media (max-width: 768px) {
+    padding: 20px 10px;
+  }
 }
 
 .products {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
   gap: 30px;
-  padding: 50px;
   width: 100%;
+  padding: 50px;
+
+  @media (max-width: 1024px) {
+    grid-template-columns: repeat(5, 1fr);
+    padding: 30px;
+  }
+
+  @media (max-width: 768px) {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 10px;
+    gap: 15px;
+  }
 }
 
 .productItem {
-  flex: 1;
   display: flex;
-  max-width: 400px;
-  min-width: 350px;
-  display: flex;
-  flex-direction: column;
+  width: 100%;
+  height: 100%;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  border-radius: 10px;
+  border-radius: 20px;
   overflow: hidden;
   transition: transform 0.3s ease;
+
   &:hover {
-      transform: scale(1.05);
+    transform: scale(1.05);
+  }
+
+  @media (max-width: 768px) {
+    border-radius: 10px;
   }
 }
 
-@media (max-width: 768px) {
-  .products {
-      justify-content: center;;
-  }
+.productItem img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
 }
 
 
@@ -109,12 +138,21 @@
   border-radius: 30px;
   transition: all 0.3s ease;
   outline: none;
+
+  @media (max-width: 768px) {
+    padding: 6px 10px;
+    margin-bottom: 10px;
+    font-size: 12px;
+  }
 }
 
 .searchBar::placeholder {
   color: #aaa;
   font-size: 16px;
   font-style: italic;
+  @media (max-width: 768px) {
+    font-size: 12px;
+  }
 }
 
 .searchBar:focus {
@@ -128,4 +166,10 @@
   color: #555;
   text-align: center;
   margin-top: 50px;
+
+  @media (max-width: 768px) {
+    font-size: 12px;
+    margin-top: 20px;
+  }
+
 }

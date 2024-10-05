@@ -2,6 +2,8 @@
     display: flex;
     flex: 1;
     flex-direction: column;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 .features {
@@ -11,32 +13,68 @@
     padding: 40px;
     flex-direction: row;
     gap: 10dvw;
-    align-items: center;
-    justify-content: center;
+    align-items: baseline;
+
+    @media (max-width: 768px) {
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        text-align: center;
+        padding: 10px;
+    }
 }
 
 .feature {
     display: flex;
+    flex: 1;
     gap: 20px;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
+
+    @media (max-width: 768px) {
+        gap: 10px;
+    }
 }
 
 .featureIcon {
     height: 50px;
+
+    @media (max-width: 1024px) {
+        height: 40px;
+    }
+
+    @media (max-width: 480px) {
+        height: 30px;
+    }
 }
 
 .featureTitle {
     color: var(--header-color);
     font-size: 25px;
     font-weight: 600;
+
+    @media (max-width: 1024px) {
+        font-size: 22px;
+    }
+
+    @media (max-width: 480px) {
+        font-size: 16px;
+    }
 }
 
 .featureDescription {
     color: var(--secondary-color);
     font-size: 18px;
+
+    @media (max-width: 1024px) {
+        font-size: 16px;
+    }
+
+    @media (max-width: 480px) {
+        font-size: 12px;
+    }
 }
 
 .promotions {
@@ -47,18 +85,48 @@
     padding: 20px;
     gap: 10px;
     box-shadow: 5px 5px 30px 10px rgba(74, 60, 42, 0.05);
+
+    @media (max-width: 1024px) {
+        padding: 10px;
+        gap: 5px;
+    }
 }
 
 .promotionDescription {
     color: var(--secondary-color);
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 600;
+
+    @media (max-width: 480px) {
+        font-size: 12px;
+    }
+}
+
+.banner {
+    display: flex;
+    flex: 1;
+    width: 100%;
+}
+
+.bannerTitle {
+    font-size: 40px;
+
+    @media (max-width: 480px) {
+        font-size: 30px;
+    }
 }
 
 .bannerIllustration {
     position: relative;
     height: 450px;
     overflow: hidden;
+
+    @media (max-width: 768px) {
+        height: 310px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
 }
 
 .illustration {
@@ -76,12 +144,44 @@
     font-size: 40px;
     font-weight: 600;
     text-align: right;
+
+    @media (max-width: 1024px) {
+        font-size: 30px;
+        right: 20px;
+    }
+
+    @media (max-width: 768px) {
+        font-size: 25px;
+    }
+
+    @media (max-width: 480px) {
+        top: 0;
+        left: 0;
+        transform: none;
+        height: 100%;
+        width: 100%;
+        padding: 20px;
+        align-items: center;
+        justify-content: center;
+        font-size: 20px;
+        background-color: rgba(250, 250, 250, 0.6);
+    }
 }
 
 .bannerPromotionDescription {
     margin-top: 40px;
     font-size: 25px;
     color: var(--primary-color);
+
+    @media (max-width: 1024px) {
+        font-size: 20px;
+    }
+
+    @media (max-width: 480px) {
+        margin-top: 20px;
+        font-size: 18px;
+        color: var(--primary-color);
+    }
 }
 
 .bannerButton {
@@ -94,6 +194,17 @@
     border-radius: 5px;
     cursor: pointer;
     align-self: center !important;
+
+    @media (max-width: 1024px) {
+        font-size: 18px;
+        padding: 8px 16px;
+    }
+
+    @media (max-width: 480px) {
+        margin-top: 10px;
+        font-size: 16px;
+        padding: 6px 12px;
+    }
 }
 
 .gridContainer {
@@ -102,6 +213,10 @@
     align-items: center;
     padding: 50px 0;
     background-color: rgba(74, 60, 42, 0.1);
+
+    @media (max-width: 480px) {
+        padding: 0;
+    }
 }
 
 .shopTypes {
@@ -112,6 +227,12 @@
     align-items: center;
     width: 100%;
     padding: 40px;
+
+    @media (max-width: 1024px) {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        padding: 20px;
+        grid-gap: 14px;
+    }
 }
 
 .shopTypeButton {
@@ -121,6 +242,14 @@
     text-align: center;
     cursor: pointer;
     width: 100%;
+
+    @media (max-width: 480px) {
+        display: flex;
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+        padding: 8px;
+    }
 }
 
 .shopTypeButton button {
@@ -132,6 +261,11 @@
     color: #EEEDEC;
     width: 100%;
     padding: 10px;
+
+    @media (max-width: 480px) {
+        padding: 8px;
+        font-size: 12px;
+    }
 }
 
 .recommandedProducts {
@@ -142,39 +276,52 @@
     text-align: center;
     align-items: center;
     justify-content: center;
+
+    @media (max-width: 1024px) {
+        padding: 50px;
+    }
+
+    @media (max-width: 480px) {
+        padding: 20px 10px;
+    }
 }
 
 .products {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     gap: 30px;
-    padding: 50px;
     width: 100%;
+    padding: 50px;
+
+    @media (max-width: 1024px) {
+        grid-template-columns: repeat(3, 1fr);
+        padding: 30px;
+    }
+
+    @media (max-width: 768px) {
+        grid-template-columns: repeat(2, 1fr);
+        padding: 10px;
+        gap: 15px;
+    }
 }
 
 .productItem {
-    flex: 1;
-    max-width: 400px;
-    min-width: 350px;
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    width: 100%;
+    height: 100%;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
+    border-radius: 20px;
     overflow: hidden;
     transition: transform 0.3s ease;
+
+    @media (max-width: 768px) {
+        border-radius: 10px;
+    }
+
     &:hover {
         transform: scale(1.05);
     }
 }
-
-@media (max-width: 768px) {
-    .products {
-        justify-content: center;;
-    }
-}
-
 
 .productItem img {
     width: 100%;
@@ -189,6 +336,15 @@
     font-weight: 600;
     font-style: italic;
     margin-bottom: 20px;
+
+    @media (max-width: 1024px) {
+        font-size: 30px;
+    }
+
+    @media (max-width: 480px) {
+        font-size: 22px;
+        padding: 10px;
+    }
 }
 
 .seeMoreButton {
@@ -202,6 +358,16 @@
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+
+    @media (max-width: 1024px) {
+        font-size: 18px;
+    }
+
+    @media (max-width: 480px) {
+        padding: 6px 16px;
+        font-size: 12px;
+        margin-top: 20px;
+    }
 }
 
 .seeMoreButton:hover {

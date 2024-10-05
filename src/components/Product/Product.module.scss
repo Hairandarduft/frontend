@@ -4,9 +4,12 @@
     flex-direction: column;
     border-radius: 20px;
     overflow: hidden;
-    background-color: #fff;
     box-shadow: 0 2px 5px rgba(10, 10, 10, 0.1);
     transition: transform 0.2s;
+
+    @media (max-width: 768px) {
+        border-radius: 10px;
+    }
 
     &:hover {
         transform: scale(1.02);
@@ -29,6 +32,10 @@
     flex-grow: 1;
     position: relative;
 
+    @media (max-width: 768px) {
+        padding: 20px 10px 10px 10px;
+    }
+
 }
 
 .productName {
@@ -40,6 +47,10 @@
     text-overflow: ellipsis;
     overflow: hidden;
     max-width: 100%;
+
+    @media (max-width: 768px) {
+        font-size: 14px;
+    }
 }
 
 .gammeChipContainer {
@@ -53,6 +64,12 @@
     transform: translateX(-50%);
     z-index: 1;
     background-color: #fff;
+
+    @media (max-width: 768px) {
+        border-radius: 6px;
+        font-size: 10px;
+        top: -12px;
+    }
 }
 
 .gammeChip {
@@ -60,6 +77,15 @@
     height: 100%;
     padding: 6px 18px;
     border-radius: 8px;
+
+    @media (max-width: 768px) {
+        border-radius: 6px;
+        padding: 4px 12px;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        max-width: 150px;
+        overflow: hidden;
+    }
 }
 
 .limitedEditionChipContainer {
@@ -72,6 +98,11 @@
     z-index: 1;
     background-color: #fff;
     width: 100%;
+
+    @media (max-width: 768px) {
+        font-size: 10px;
+        top: -12px;
+    }
 }
 
 .limitedEditionChip {
@@ -81,18 +112,35 @@
     color: #fff;
     background-color: rgba(255, 59, 48, 0.8);
     font-style: italic;
+
+    @media (max-width: 768px) {
+        padding: 4px 12px;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        max-width: 150px;
+        overflow: hidden;
+    }
 }
 
 .productDescription {
     font-size: 16px;
     color: #555;
     margin-bottom: 18px;
+
+    @media (max-width: 768px) {
+        font-size: 12px;
+    }
 }
 
 .productPrice {
     font-size: 18px;
     font-weight: bold;
     margin-bottom: 18px;
+
+    @media (max-width: 768px) {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
 }
 
 .promotion {
@@ -103,6 +151,12 @@
     padding: 8px;
     margin-bottom: 18px;
     font-size: 0.9rem;
+
+    @media (max-width: 768px) {
+        font-size: 10px;
+        padding: 6px;
+        margin-bottom: 10px;
+    }
 
     .promoCode {
         font-weight: bold;
@@ -115,6 +169,11 @@
     color: #333;
     margin-bottom: 18px;
 
+    @media (max-width: 768px) {
+        font-size: 10px;
+        margin-bottom: 10px;
+    }
+
     ul {
         list-style-type: none;
         padding-left: 0;
@@ -122,6 +181,9 @@
 
     li {
         margin-bottom: 8px;
+        @media (max-width: 768px) {
+            margin-bottom: 6px;
+        }
     }
 }
 
@@ -143,6 +205,12 @@
     text-align: center;
     transition: background-color 0.2s;
     margin-top: auto;
+
+    @media (max-width: 768px) {
+        padding: 6px 8px;
+        border-radius: 6px;
+        font-size: 10px;
+    }
 
     &:hover {
         background-color: var(--header-color);

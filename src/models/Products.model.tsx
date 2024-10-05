@@ -15,9 +15,10 @@ export enum GammeProductColor {
 export interface Review {
   id: number;
   productId: number;
-  userId: number;
+  username: number;
   rating: number;
   comment: string;
+  date: string; // au format timestamp : "2021-06-01T00:00:00.000Z" donc pour
 }
 
 export interface Promotion {

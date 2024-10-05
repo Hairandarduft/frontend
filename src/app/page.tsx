@@ -76,6 +76,8 @@ const shopTypes = [
 
 export function HomeScreen() {
   const [allProducts, setAllProducts] = useState<Product[]>([]);
+  const [currentFeatureIndex, setCurrentFeatureIndex] = useState(0);
+  const [isMobile, setIsMobile] = useState(false);
   const router = useRouter();
 
   useEffect(() => {
@@ -93,25 +95,56 @@ export function HomeScreen() {
     .sort(() => 0.5 - Math.random())
     .slice(0, 4);
 
+  // Check if the device is mobile
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth <= 768);
+    };
+
+    handleResize(); // Check on component mount
+    window.addEventListener("resize", handleResize);
+
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
+  useEffect(() => {
+    if (isMobile) {
+      const interval = setInterval(() => {
+        setCurrentFeatureIndex(
+          (prevIndex) => (prevIndex + 1) % features.length
+        );
+      }, 3000); // Change every 3 seconds
+      return () => clearInterval(interval);
+    }
+  }, [isMobile]);
+
   return (
     <MainLayout
       children={
         <div className={css.container}>
           <div className={css.features}>
             {features.map((feature, index) => (
-              <div key={index} className={css.feature}>
+              <div
+                key={index}
+                className={css.feature}
+                style={{
+                  display:
+                    isMobile && index !== currentFeatureIndex
+                      ? "none"
+                      : "flex"
+                }}
+              >
                 <img
                   src={feature.icon}
                   alt={feature.title}
                   className={css.featureIcon}
                 />
                 <div>
-                  <h2 className={css.featureTitle} style={{ fontSize: "28px" }}>
+                  <h2 className={css.featureTitle} >
                     {feature.title}
                   </h2>
                   <p
                     className={css.featureDescription}
-                    style={{ fontSize: "18px" }}
                   >
                     {feature.description}
                   </p>
@@ -125,7 +158,6 @@ export function HomeScreen() {
                 <div key={index}>
                   <p
                     className={css.promotionDescription}
-                    style={{ fontSize: "20px" }}
                   >
                     {promotion.description.toLocaleUpperCase()}
                   </p>
@@ -140,7 +172,7 @@ export function HomeScreen() {
               className={css.illustration}
             />
             <div className={css.bannerText}>
-              <h2 style={{ fontSize: "40px" }}>
+              <h2 className={css.bannerTitle}>
                 Trolls Deserve Great Hair Too
               </h2>
               <p style={{ fontSize: "20px" }}>
@@ -162,7 +194,7 @@ export function HomeScreen() {
               {shopTypes.map((shopType, index) => (
                 <div key={index} className={css.shopTypeButton}>
                   <button
-                    onClick={() => router.push(`/gamme/${shopType.gamme_id}`)}
+                    // onClick={() => router.push(`/gamme/${shopType.gamme_id}`)}
                   >
                     {shopType.title}
                   </button>
