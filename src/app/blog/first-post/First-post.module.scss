@@ -1,61 +1,112 @@
 .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    flex: 1;
-    padding: 40px;
-    background-color: rgba(233, 243, 217, 0.9);
-    min-height: calc(100vh - 120px);
-    margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  padding: 40px;
+  background-color: rgba(233, 243, 217, 0.9);
+  min-height: calc(100vh - 120px);
+  margin-top: 80px;
+}
+
+.card {
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  padding: 20px;
+  margin-top: 100px;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  max-width: 600px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  transition: transform 0.3s ease;
+  overflow: hidden;
+}
+
+.card h2 {
+  color: #6A9A4A;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.card p {
+  color: #2F3B30;
+  font-size: 16px;
+  text-align: center;
+}
+
+.card .date,
+.card .author {
+  color: #7C8C7A;
+  font-size: 14px;
+  margin: 5px 0;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.backLink {
+  color: #6A9A4A;
+  margin-top: 20px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .container {
+      padding: 20px;
   }
 
   .card {
-    background-color: #FFFFFF;
-    border-radius: 8px;
-    padding: 20px;
-    margin: 100px 0;
-    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
-    width: 90%;
-    max-width: 600px;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    transition: transform 0.3s ease;
-    overflow: hidden;
+      margin-top: 60px;
+      padding: 15px;
   }
 
   .card h2 {
-    color: #6A9A4A;
-    font-size: 24px;
-    margin-bottom: 10px;
+      font-size: 20px;
   }
 
   .card p {
-    color: #2F3B30;
-    font-size: 16px;
-    text-align: center;
+      font-size: 14px;
   }
-  
+
   .card .date,
   .card .author {
-    color: #7C8C7A;
-    font-size: 14px;
-    margin: 5px 0;
+      font-size: 12px;
   }
-  
-  .card img {
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
-    margin-bottom: 10px;
-  }
-  
+
   .backLink {
-    color: #6A9A4A;
-    margin-top: 20px;
-    text-decoration: underline;
-    cursor: pointer;
+      margin-top: 15px;
   }
+}
+
+@media (max-width: 480px) {
+  .container {
+      padding: 10px;
+  }
+
+  .card {
+      margin-top: 40px;
+      padding: 10px;
+  }
+
+  .card h2 {
+      font-size: 18px;
+  }
+
+  .card p {
+      font-size: 12px;
+  }
+
+  .backLink {
+      margin-top: 10px;
+  }
+}

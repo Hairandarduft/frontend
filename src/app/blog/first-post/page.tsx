@@ -1,7 +1,7 @@
 import Header from "@/components/Header/Header";
 import { Colors } from '@/constants/colors';
 import Link from 'next/link';
-import styles from './First-post.module.scss'; // Importer le module SCSS
+import styles from './First-post.module.scss';
 
 export default function FirstPost() {
   return (
@@ -11,10 +11,10 @@ export default function FirstPost() {
         <div className={styles.card}>
           <h2>Andarduft & Benefits</h2>
           <p className={styles.date}>Published on: September 30, 2024</p>
-          <p className={styles.author}>Author: NawelleFromHairAndarduft</p>
+          <p className={styles.author}>Author:<br />NawelleFromHairAndarduft</p>
           <img
             src="/assets/images/andarduft.jpg"
-            alt="Blog Post Image"
+            alt="Andarduft Image"
           />
           <p>
           In the quest for luscious locks and a healthy scalp, nature often provides the best solutions. One such gem is Andarduft, a remarkable plant renowned for its invigorating properties and numerous benefits for hair care. Let’s dive into why Andarduft should be your go-to ingredient for revitalizing your hair routine.

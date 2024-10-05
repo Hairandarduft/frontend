@@ -1,18 +1,3 @@
-// import Header from "@/components/Header/Header";
-// import css from './Blog.module.scss';
-
-// export function Blog() {
-//   return (
-//     <>
-//       <Header />
-//         <div className={css.container}>
-//           <h1>Blog page content</h1>
-//         </div>
-//     </>
-//   );
-// }
-
-// export default Blog;
 import Header from "@/components/Header/Header";
 import css from './Blog.module.scss';
 import { Colors } from '@/constants/colors';
@@ -23,36 +8,36 @@ export function Blog() {
     {
       id: 1,
       title: 'Andarduft & Benefits',
-      author: 'NawelleFromHairAndarduft',  // Added author
-      cover: '/assets/images/andarduft.jpg', // Ensure correct path for the cover image
-      link: '/blog/first-post'  // Correct link to the blog post
+      author: 'NawelleFromHairAndarduft',
+      cover: '/assets/images/andarduft.jpg',
+      link: '/blog/first-post'
     },
     {
       id: 2,
-      title: 'Second Blog Post',
-      author: 'Author 2', // Placeholder author
-      cover: '/images/blog2.jpg',
+      title: 'Andarduft Color Protection Shampoo',
+      author: 'BobFromHairAndarduft',
+      cover: '/assets/products/14.webp',
       link: '/blog/second-post'
     },
     {
       id: 3,
-      title: 'Third Blog Post',
-      author: 'Author 3', // Placeholder author
-      cover: '/images/blog3.jpg',
+      title: 'Andarduft Everyday Shampoo',
+      author: 'HaileyFromHairAndarduft',
+      cover: '/assets/products/7.webp',
       link: '/blog/third-post'
     },
     {
       id: 4,
-      title: 'Fourth Blog Post',
-      author: 'Author 4', // Placeholder author
-      cover: '/images/blog4.jpg',
+      title: 'Andarduft Intense Repair Hair Mask',
+      author: 'TaylerFromHairAndarduft',
+      cover: '/assets/products/6.webp',
       link: '/blog/fourth-post'
     },
     {
       id: 5,
-      title: 'Fifth Blog Post',
-      author: 'Author 5', // Placeholder author
-      cover: '/images/blog5.jpg',
+      title: 'Andarduft Curl Enhancing Cream',
+      author: 'PercyFromHairAndarduft',
+      cover: '/assets/products/10.webp',
       link: '/blog/fifth-post'
     },
   ];
@@ -68,7 +53,7 @@ export function Blog() {
               <img src={post.cover} alt={post.title} className={css.coverImage} />
               <div className={css.blogContent}>
                 <h2 style={{ color: Colors.text }}>{post.title}</h2>
-                <p style={{ color: Colors.secondaryText }}>Author: {post.author}</p> {/* Displaying the author */}
+                <p style={{ color: Colors.secondaryText }}>Author:<br />{post.author}</p>
               </div>
             </Link>
           ))}

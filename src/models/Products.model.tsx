@@ -18,6 +18,8 @@ export interface Review {
   userId: number;
   rating: number;
   comment: string;
+  username: string;
+  date: string;
 }
 
 export interface Promotion {
