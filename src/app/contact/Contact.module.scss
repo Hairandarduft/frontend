@@ -1,5 +1,119 @@
 .container {
+  max-width: 800px;
+  padding-top: 520px; /* Ajuster selon la hauteur du header si celui-ci est fixe */
+  padding: 40px 20px;
+  background-color: #f8f8f8;
+  border-radius: 8px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 36px;
+  text-align: center;
+  color: #333;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+.contactInfo {
+  text-align: center;
+  margin-bottom: 40px;
+
+  p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 20px;
+  }
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+
+    li {
+      font-size: 18px;
+      margin: 10px 0;
+      color: #333;
+
+      strong {
+        color: #4A3C2A;  /* Couleur principale pour les informations clés */
+      }
+    }
+  }
+}
+
+.contactForm {
   display: flex;
-  margin-top: 200px;
   flex-direction: column;
+  gap: 20px;
+  background-color: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+
+  .formGroup {
+    display: flex;
+    flex-direction: column;
+
+    label {
+      font-size: 16px;
+      margin-bottom: 8px;
+      color: #333;
+      font-weight: bold;
+    }
+
+    .inputField, .textareaField {
+      padding: 12px;
+      font-size: 16px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      transition: border-color 0.3s ease;
+    }
+
+    .inputField:focus, .textareaField:focus {
+      border-color: #4A3C2A;  /* Couleur principale */
+      outline: none;
+    }
+
+    .textareaField {
+      resize: vertical;
+      height: 150px;
+    }
+  }
+
+  .submitButton {
+    padding: 12px 20px;
+    background-color: #4A3C2A;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+
+    &:hover {
+      background-color: #3c301f;  /* Couleur plus foncée au survol */
+      transform: scale(1.05);
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 20px;
+    margin: 60px auto; /* Réduction de la marge sur mobile */
+  }
+
+  .title {
+    font-size: 28px;
+  }
+
+  .contactForm {
+    padding: 20px;
+  }
+
+  .inputField, .textareaField {
+    font-size: 14px;
+  }
 }

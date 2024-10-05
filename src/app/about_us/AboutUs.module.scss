@@ -1,5 +1,72 @@
 .container {
   display: flex;
-  margin-top: 200px;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+  text-align: center;
+}
+
+.foundersSection {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.founders {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.founder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+}
+
+.founderPhoto {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid rgb(129, 129, 129);
+  margin-bottom: 20px;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.sectionTitle {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.founder h3 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #6B4F29; /* Couleur pour mettre en valeur le nom des fondateurs */
+  margin-top: 15px;
+}
+
+.founder p {
+  font-size: 1rem;
+  color: #333; /* Couleur du texte pour la description des fondateurs */
+  margin-top: 10px;
+  max-width: 180px; /* Pour que le texte reste bien sous la photo */
+  text-align: center;
+}
+
+.intro {
+  max-width: 800px;
+  font-size: 1.2rem;
+  margin-bottom: 40px;
+  text-align: center;
 }
