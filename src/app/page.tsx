@@ -74,7 +74,7 @@ const shopTypes = [
   },
 ];
 
-export function HomeScreen() {
+export default function HomeScreen() {
   const [allProducts, setAllProducts] = useState<Product[]>([]);
   const [currentFeatureIndex, setCurrentFeatureIndex] = useState(0);
   const [isMobile, setIsMobile] = useState(false);
@@ -222,5 +222,3 @@ export function HomeScreen() {
     />
   );
 }
-
-export default HomeScreen;

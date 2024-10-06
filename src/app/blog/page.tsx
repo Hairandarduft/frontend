@@ -2,8 +2,9 @@ import Header from "@/components/Header/Header";
 import css from './Blog.module.scss';
 import { Colors } from '@/constants/colors';
 import Link from 'next/link';
+import { MainLayout } from "@/layouts";
 
-export function Blog() {
+export default function Blog() {
   const blogPosts = [
     {
       id: 1,
@@ -43,8 +44,7 @@ export function Blog() {
   ];
 
   return (
-    <>
-      <Header />
+    <MainLayout children={
       <div className={css.container}>
         <h1 style={{ color: Colors.primary }}>Welcome to the Blog</h1>
         <div className={css.blogGrid}>
@@ -59,8 +59,6 @@ export function Blog() {
           ))}
         </div>
       </div>
-    </>
+    } />
   );
 }
-
-export default Blog;

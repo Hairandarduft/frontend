@@ -1,14 +1,12 @@
 import Header from "@/components/Header/Header";
 import css from './Contact.module.scss';
+import { MainLayout } from "@/layouts";
 
-export function Contact() {
+export default function Contact() {
   return (
-    <>
-      <Header />
+    <MainLayout children={
       <div className={css.container}>
         <h1 className={css.title}>Contact Us</h1>
-
-        {/* Informations de contact */}
         <div className={css.contactInfo}>
           <p>Feel free to reach out to us using the form below or contact us directly:</p>
           <ul>
@@ -17,8 +15,6 @@ export function Contact() {
             <li><strong>Address:</strong> 123 Shampoo Lane, Imaginary City</li>
           </ul>
         </div>
-
-        {/* Formulaire de contact */}
         <form className={css.contactForm}>
           <div className={css.formGroup}>
             <label htmlFor="name">Your Name</label>
@@ -38,8 +34,6 @@ export function Contact() {
           <button type="submit" className={css.submitButton}>Send Message</button>
         </form>
       </div>
-    </>
+    } />
   );
 }
-
-export default Contact;

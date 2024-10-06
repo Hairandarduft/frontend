@@ -6,7 +6,7 @@ import ProductCard from "@/components/Product/Product";
 import { Product, extractProducts } from "@/models/Products.model";
 import { useEffect, useState } from "react";
 
-export function Shop() {
+export default function Shop() {
   const [allProducts, setAllProducts] = useState<Product[]>([]);
   const [filteredProducts, setFilteredProducts] = useState<Product[]>([]);
   const [searchTerm, setSearchTerm] = useState<string>("");
@@ -68,5 +68,3 @@ export function Shop() {
     />
   );
 }
-
-export default Shop;

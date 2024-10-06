@@ -1,10 +1,9 @@
-import Header from "@/components/Header/Header";
 import css from './AboutUs.module.scss';
+import { MainLayout } from "@/layouts";
 
-export function AboutUs() {
+export default function AboutUs() {
   return (
-    <>
-      <Header />
+    <MainLayout children={
       <div className={css.container}>
         <h1 className={css.title}>About Hairandarduft</h1>
         <p className={css.intro}>
@@ -12,7 +11,6 @@ export function AboutUs() {
           Our mission is simple: to provide the best quality shampoos that not only cleanse, but nourish and empower. 
           Our unique formulas, enriched with mystical troll herbs from the far north, have captured the imagination and love of people around the world.
         </p>
-        
         <section className={css.foundersSection}>
           <h2 className={css.sectionTitle}>Our Founders</h2>
           <div className={css.founders}>
@@ -42,8 +40,6 @@ export function AboutUs() {
           </div>
         </section>
       </div>
-    </>
+    } />
   );
 }
-
-export default AboutUs;
