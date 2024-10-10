@@ -10,7 +10,7 @@ const poppins = Poppins({
 
 export const metadata: Metadata = {
   title: 'hairandarduft',
-  description: 'Fresh bread daily',
+  description: 'Best Andarduft shampoo in the world',
 }
 
 export default function RootLayout({
