@@ -20,6 +20,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+      <link rel="icon" href="/favicon.jpg" type="image/jpeg" />
+      </head>
       <body className={poppins.className}>
         <main className="flex min-h-screen flex-col">{children}</main>
         <Analytics />
