@@ -41,6 +41,13 @@ export default function Blog() {
       cover: '/assets/products/10.webp',
       link: '/blog/fifth-post'
     },
+    {
+      id: 6,
+      title: 'Our Partners!',
+      author: 'WwFromHairAndarduft',
+      cover: '/assets/images/banner.jpg',
+      link: '/blog/sixth-post'
+    },
   ];
 
   return (
