@@ -20,14 +20,14 @@ export default function SixthPost() {
         Discover how our valued partners are incorporating the powerful Andarduft plant into their own innovative products! In this blog post, we explore the unique ways they're harnessing Andarduft's refreshing menthol properties to create various miracle-like products!
           <br />
           <br />
-          <strong>
+          {/* <strong>
               <Link href="https://andarduftfairycinals.tech/" target="_blank" rel="noopener noreferrer" className={styles.link}>
                 AndarduftFairycinals
               </Link>
             </strong>
             <br />
             Discover Andarduft's prenium muscle supplements like protein powders, creatine, BCAA, and pre-workouts. Build troll-like strength with their unique products tailored for bodybuilders and fitness enthusiasts.
-          <br />
+          <br /> */}
           <br />
           <strong>
                 <Link href="https://standarduft.com/" target="_blank" rel="noopener noreferrer" className={styles.link}>
