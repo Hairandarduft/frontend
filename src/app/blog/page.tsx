@@ -7,6 +7,13 @@ import { MainLayout } from "@/layouts";
 export default function Blog() {
   const blogPosts = [
     {
+      id: 7,  // Halloween Post
+      title: 'Andarduft & Halloween',
+      author: 'LorenzoFromHairAndarduft',
+      cover: '/assets/images/halloween-andarduft.png',
+      link: '/blog/halloween-post'
+    },
+    {
       id: 1,
       title: 'Andarduft & Benefits',
       author: 'NawelleFromHairAndarduft',
