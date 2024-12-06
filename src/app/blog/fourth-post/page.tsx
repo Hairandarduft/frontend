@@ -5,8 +5,10 @@ import Link from 'next/link';
 import { useEffect, useState } from 'react';
 import styles from './Fourth-post.module.scss';
 import { Product, extractProducts } from "@/models/Products.model";
+import usePageMetadata from "@/app/metadata";
 
 export default function FourthPost() {
+    usePageMetadata('Andarduft Intense Repair Hair Mask - Hairandarduft', 'Discover the benefits of the Andarduft Intense Repair Hair Mask. Learn more about its natural ingredients and how it can help you restore severely damaged hair.');
     const [product, setProduct] = useState<Product | null>(null);
     const productId = 6;
 

@@ -1,9 +1,12 @@
+"use client";
 import Header from "@/components/Header/Header";
 import { Colors } from '@/constants/colors';
 import Link from 'next/link';
 import styles from './Halloween-post.module.scss';
+import usePageMetadata from "@/app/metadata";
 
 export default function HalloweenPost() {
+  usePageMetadata('Andarduft & Halloween - Hairandarduft', 'As the nights grow longer and the air turns crisp, it\'s time to give your hair some special treatment this Halloween! Andarduft’s spooky edition is here to ensure your locks are as healthy and vibrant as ever, even during the most chilling of nights.');
   return (
     <>
       <Header />
@@ -13,7 +16,7 @@ export default function HalloweenPost() {
           <p className={styles.date}>Published on: October 31, 2024</p>
           <p className={styles.author}>Author:<br />LorenzoFromHairAndarduft</p>
           <img
-            src="/assets/images/halloween-andarduft.png"
+            src="/assets/images/halloween-andarduft.webp"
             alt="Andarduft Halloween Image"
           />
           <p>

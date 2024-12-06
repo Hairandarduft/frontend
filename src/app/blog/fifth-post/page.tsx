@@ -5,8 +5,10 @@ import Link from 'next/link';
 import { useEffect, useState } from 'react';
 import styles from './Fifth-post.module.scss';
 import { Product, extractProducts } from "@/models/Products.model";
+import usePageMetadata from "@/app/metadata";
 
 export default function FifthPost() {
+    usePageMetadata('Andarduft Curl Enhancing Cream - Hairandarduft', 'Discover the benefits of the Andarduft Curl Enhancing Cream. Learn more about its natural ingredients and how it can help you define and enhance your natural curls.');
     const [product, setProduct] = useState<Product | null>(null);
     const productId = 10;
 

@@ -5,8 +5,11 @@ import { useRouter } from "next/navigation";
 import ProductCard from "@/components/Product/Product";
 import { Product, extractProducts } from "@/models/Products.model";
 import { useEffect, useState } from "react";
+import usePageMetadata from "../metadata";
+
 
 export default function Shop() {
+  usePageMetadata('Shop - Hairandarduft', 'Explore our Hairandarduft shop and discover the best range of Andarduft shampoos in the world. Easily find your favorite products with our search tool. Quality and care for your hair guaranteed!');
   const [allProducts, setAllProducts] = useState<Product[]>([]);
   const [filteredProducts, setFilteredProducts] = useState<Product[]>([]);
   const [searchTerm, setSearchTerm] = useState<string>("");

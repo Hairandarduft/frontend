@@ -1,9 +1,12 @@
+"use client";
 import Header from "@/components/Header/Header";
 import { Colors } from '@/constants/colors';
 import Link from 'next/link';
 import styles from './Sixth-post.module.scss';
+import usePageMetadata from "@/app/metadata";
 
 export default function SixthPost() {
+  usePageMetadata('Our Partners! - Hairandarduft', 'Discover how our valued partners are incorporating the powerful Andarduft plant into their own innovative products! In this blog post, we explore the unique ways they\'re harnessing Andarduft\'s refreshing menthol properties to create various miracle-like products!');
   return (
     <>
       <Header />
@@ -13,7 +16,7 @@ export default function SixthPost() {
           <p className={styles.date}>Published on: October 6, 2024</p>
           <p className={styles.author}>Author:<br />WwFromHairAndarduft</p>
             <img
-                src="/assets/images/banner.jpg"
+                src="/assets/images/banner.webp"
                 alt="Andarduft Logo Image"
             />
           <p>

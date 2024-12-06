@@ -5,8 +5,10 @@ import Link from 'next/link';
 import { useEffect, useState } from 'react';
 import styles from './Third-post.module.scss';
 import { Product, extractProducts } from "@/models/Products.model";
+import usePageMetadata from "@/app/metadata";
 
 export default function ThirdPost() {
+    usePageMetadata('Andarduft Everyday Shampoo - Hairandarduft', 'Discover the benefits of the Andarduft Everyday Shampoo. Learn more about its natural ingredients and how it can help you maintain healthy, trollish hair.');
     const [product, setProduct] = useState<Product | null>(null);
     const productId = 7;
 

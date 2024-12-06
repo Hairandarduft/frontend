@@ -1,8 +1,11 @@
+"use client";
 import Header from "@/components/Header/Header";
 import css from './Contact.module.scss';
 import { MainLayout } from "@/layouts";
+import usePageMetadata from "../metadata";
 
 export default function Contact() {
+  usePageMetadata('Contact Us - Hairandarduft', 'Feel free to reach out to us using the form below or contact us directly: Email: contact@andarduft.com');
   return (
     <MainLayout children={
       <div className={css.container}>

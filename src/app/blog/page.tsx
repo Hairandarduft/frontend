@@ -1,23 +1,26 @@
+"use client";
 import Header from "@/components/Header/Header";
 import css from './Blog.module.scss';
 import { Colors } from '@/constants/colors';
 import Link from 'next/link';
 import { MainLayout } from "@/layouts";
+import usePageMetadata from "../metadata";
 
 export default function Blog() {
+  usePageMetadata('Blog - Hairandarduft', 'Discover the latest news and updates from Hairandarduft. Learn more about our products, our team, and our mission to provide the best quality shampoos that not only cleanse, but nourish and empower.');
   const blogPosts = [
     {
       id: 7,  // Halloween Post
       title: 'Andarduft & Halloween',
       author: 'LorenzoFromHairAndarduft',
-      cover: '/assets/images/halloween-andarduft.png',
+      cover: '/assets/images/halloween-andarduft.webp',
       link: '/blog/halloween-post'
     },
     {
       id: 1,
       title: 'Andarduft & Benefits',
       author: 'NawelleFromHairAndarduft',
-      cover: '/assets/images/andarduft.jpg',
+      cover: '/assets/images/andarduft.webp',
       link: '/blog/first-post'
     },
     {
@@ -52,7 +55,7 @@ export default function Blog() {
       id: 6,
       title: 'Our Partners!',
       author: 'WwFromHairAndarduft',
-      cover: '/assets/images/banner.jpg',
+      cover: '/assets/images/banner.webp',
       link: '/blog/sixth-post'
     },
   ];

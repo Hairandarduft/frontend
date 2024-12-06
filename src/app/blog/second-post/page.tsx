@@ -5,8 +5,10 @@ import Link from 'next/link';
 import { useEffect, useState } from 'react';
 import styles from './Second-post.module.scss';
 import { Product, extractProducts } from "@/models/Products.model";
+import usePageMetadata from "@/app/metadata";
 
 export default function SecondPost() {
+    usePageMetadata('Andarduft Color Protection Shampoo - Hairandarduft', 'Discover the benefits of the Andarduft Color Protection Shampoo. Learn more about its natural ingredients and how it can help you maintain vibrant, colorful hair.');
     const [product, setProduct] = useState<Product | null>(null);
     const productId = 14;
     

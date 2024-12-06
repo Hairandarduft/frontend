@@ -6,6 +6,7 @@ import { useRouter } from "next/navigation";
 import ProductCard from "@/components/Product/Product";
 import { Product, extractProducts } from "@/models/Products.model";
 import { useEffect, useState } from "react";
+import usePageMetadata from "./metadata";
 
 const features = [
   {
@@ -75,6 +76,7 @@ const shopTypes = [
 ];
 
 export default function HomeScreen() {
+  usePageMetadata('Home - Hairandarduft', 'Welcome to Hairandarduft, the brand that creates the best quality shampoos that not only cleanse, but nourish and empower. Our unique formulas, enriched with mystical troll herbs from the far north, have captured the imagination and love of people around the world.');
   const [allProducts, setAllProducts] = useState<Product[]>([]);
   const [currentFeatureIndex, setCurrentFeatureIndex] = useState(0);
   const [isMobile, setIsMobile] = useState(false);
@@ -167,7 +169,7 @@ export default function HomeScreen() {
           )}
           <div className={css.bannerIllustration}>
             <img
-              src="assets/images/banner.jpg"
+              src="assets/images/banner.webp"
               alt="Banner"
               className={css.illustration}
             />

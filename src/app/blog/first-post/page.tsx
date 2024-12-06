@@ -1,9 +1,12 @@
+"use client";
 import Header from "@/components/Header/Header";
 import { Colors } from '@/constants/colors';
 import Link from 'next/link';
 import styles from './First-post.module.scss';
+import usePageMetadata from "@/app/metadata";
 
 export default function FirstPost() {
+  usePageMetadata('Andarduft & Benefits - Hairandarduft', 'Discover the benefits of the Andarduft plant for hair care. Learn how Andarduft can help refresh your scalp, strengthen your hair, and protect your color.');
   return (
     <>
       <Header />
@@ -13,7 +16,7 @@ export default function FirstPost() {
           <p className={styles.date}>Published on: September 30, 2024</p>
           <p className={styles.author}>Author:<br />NawelleFromHairAndarduft</p>
           <img
-            src="/assets/images/andarduft.jpg"
+            src="/assets/images/andarduft.webp"
             alt="Andarduft Image"
           />
           <p>
